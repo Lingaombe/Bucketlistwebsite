@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(300deg, rgb(155, 255, 155), rgb(124, 124, 255));
+    background-image: linear-gradient(135deg, rgb(155, 255, 155), rgb(124, 124, 255));
     display: flex;
     background-size: cover;
     background-position: 0;
@@ -16,12 +16,12 @@ body{
     background-color: aliceblue;
     width: 25vw;
     min-height: 30vh;
-    border-radius: 10%;
+    border-radius: 20%;
     padding: 5%;
 }
 .write{
     display: flex;
-    width: 90%;
+    width: 100%;
     border-radius: 30px;
     background-color: rgb(211, 210, 210);
 }
@@ -122,17 +122,15 @@ ul{
     flex-direction: column;
     font-size: 1.3rem;
 }
-ul li{
+li{
     list-style-type: none;
     padding: 12px 8px 12px 50px;
     user-select: none;
     cursor: pointer;
     position: relative;
     display: flex;
-    flex: 1;
-    flex-direction: column;
 }
-ul li::before{
+li::before{
     content: '';
     position: absolute;
     height: 28px;
@@ -144,13 +142,13 @@ ul li::before{
     top: 1.1vh;
     left: 8px;
 }
-ul li.checked{
+li.checked{
     text-decoration: line-through;
 }
-ul li.checked::before{
-    background-image: url('checklist.png');
+li.checked::before{
+    background-image: url('/checklist.png');
 }
-ul li span{
+li span{
     position: absolute;
     right: 0;
     top: 5px;
@@ -159,7 +157,7 @@ ul li span{
     line-height: 40px;
     text-align: center;
 }
-ul li span:hover{
+li span:hover{
     background-color: rgb(179, 170, 170);
     border-radius: 30%;
 }
