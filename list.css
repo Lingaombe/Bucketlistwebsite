@@ -146,7 +146,7 @@ li.checked{
     text-decoration: line-through;
 }
 li.checked::before{
-    background-image: url('/checklist.png');
+    background-image: url('checklist.png');
 }
 li span{
     position: absolute;
