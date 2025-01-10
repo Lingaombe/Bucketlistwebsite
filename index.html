@@ -8,16 +8,23 @@
         <link rel="stylesheet" href="list.css">
     </head>
     <body>
+        <div class="nav">
+            <img src="/bucket-list.png" class="menu" onclick="menu()" >
+            <img src="/app.png" onclick="menu()" class="menu">
+        </div>
         <div class="bucket">
             <h1>Bucket List</h1>
             <div class="write">
                 <input type="text" id="input">
                 <button onclick="submit()">submit</button>
             </div>
-        <div>
-            <ul id="list">
-            </ul>
+            <div>
+                <ul id="list">
+                </ul>
+            </div>
         </div>
+        <div class="footer">
+            <p>©2025 Bucket List. Keep track of your goals</p>
         </div>
     </body>
     <script src="list.js"></script>
