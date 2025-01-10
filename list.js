@@ -1,6 +1,9 @@
 const input = document.getElementById("input");
 const list = document.getElementById("list");
 
+function menu(){
+    alert("Nothing to see here");
+}
 
 function submit(){
     if(input.value === ''){
